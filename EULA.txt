@@ -1,0 +1,178 @@
+﻿END USER LICENSE AGREEMENT
+Burnward - Keeps your screen alive and burn-free
+
+IMPORTANT - READ CAREFULLY BEFORE INSTALLING OR USING THIS SOFTWARE.
+
+This End User License Agreement ("Agreement") is a legal agreement between you
+(either an individual or a single entity, "You") and the developer and publisher
+of the Burnward software ("Software").
+
+BY INSTALLING, COPYING, RUNNING, OR OTHERWISE USING THE SOFTWARE, YOU AGREE TO
+BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS, DO
+NOT INSTALL OR USE THE SOFTWARE.
+
+
+1. GRANT OF LICENSE
+
+Subject to Your compliance with this Agreement, You are granted a personal,
+non-exclusive, non-transferable, revocable license to install and use the
+Software on devices that You own or control.
+
+
+2. RESTRICTIONS
+
+You may not:
+  (a) sell, rent, lease, sublicense, or redistribute the Software for a fee
+      without prior written permission;
+  (b) reverse engineer, decompile, or disassemble the Software, except to the
+      extent such activity is expressly permitted by applicable law
+      notwithstanding this limitation;
+  (c) remove or alter any copyright, trademark, or other proprietary notices
+      contained in the Software;
+  (d) use the Software for any unlawful purpose.
+
+
+3. THE SOFTWARE IS PROVIDED "AS IS"
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS AND
+WITHOUT WARRANTY OF ANY KIND.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER AND PUBLISHER
+EXPRESSLY DISCLAIM ALL WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED, OR
+STATUTORY, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OR CONDITIONS OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT,
+ACCURACY, AND NON-INFRINGEMENT.
+
+THE DEVELOPER AND PUBLISHER DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR
+REQUIREMENTS, THAT ITS OPERATION WILL BE UNINTERRUPTED OR ERROR-FREE, THAT ANY
+DEFECT WILL BE CORRECTED, OR THAT THE SOFTWARE WILL PREVENT, REDUCE, OR
+MITIGATE SCREEN BURN-IN, IMAGE RETENTION, OR ANY OTHER FORM OF DISPLAY
+DEGRADATION.
+
+YOU ASSUME THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE
+SOFTWARE.
+
+
+4. NO LIABILITY FOR DAMAGE, INCLUDING HARDWARE DAMAGE
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+DEVELOPER OR PUBLISHER BE LIABLE FOR ANY CLAIM, DEMAND, DAMAGE, COST, EXPENSE,
+OR LOSS OF ANY KIND WHATSOEVER, WHETHER DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL, ARISING OUT OF OR IN ANY WAY RELATED TO
+THE SOFTWARE OR ITS USE OR INABILITY TO BE USED, INCLUDING WITHOUT LIMITATION:
+
+  (a) ANY DAMAGE TO, MALFUNCTION OF, DEGRADATION OF, OR FAILURE OF ANY DISPLAY,
+      MONITOR, SCREEN, PANEL, GRAPHICS HARDWARE, COMPUTER, OR OTHER EQUIPMENT;
+
+  (b) ANY SCREEN BURN-IN, IMAGE RETENTION, PIXEL DEGRADATION, BACKLIGHT WEAR, OR
+      ANY OTHER DISPLAY CONDITION, WHETHER OR NOT THE SOFTWARE WAS IN USE;
+
+  (c) ANY CHANGE THE SOFTWARE MAKES TO DISPLAY BRIGHTNESS OR DISPLAY SETTINGS,
+      AND ANY CONSEQUENCE OF SUCH A CHANGE OR OF A FAILURE TO RESTORE A PRIOR
+      SETTING;
+
+  (d) ANY LOSS OF DATA, LOSS OF PROFITS, LOSS OF BUSINESS, BUSINESS
+      INTERRUPTION, OR LOSS OF GOODWILL;
+
+  (e) ANY PERSONAL INJURY, DISCOMFORT, OR HEALTH EFFECT OF ANY KIND; OR
+
+  (f) ANY ACT OR OMISSION OF ANY THIRD PARTY.
+
+THIS LIMITATION APPLIES EVEN IF THE DEVELOPER OR PUBLISHER HAS BEEN ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGES, AND EVEN IF ANY REMEDY FAILS OF ITS ESSENTIAL
+PURPOSE.
+
+YOU AGREE NOT TO BRING, AND WAIVE ANY RIGHT TO BRING, ANY CLAIM AGAINST THE
+DEVELOPER OR PUBLISHER FOR DAMAGED HARDWARE OR FOR ANY OTHER LOSS ARISING FROM
+YOUR USE OF THE SOFTWARE.
+
+
+5. AGGREGATE LIABILITY CAP
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE TOTAL AGGREGATE
+LIABILITY OF THE DEVELOPER AND PUBLISHER FOR ALL CLAIMS RELATING TO THE
+SOFTWARE SHALL NOT EXCEED THE AMOUNT YOU ACTUALLY PAID FOR THE SOFTWARE, OR
+ONE U.S. DOLLAR (USD $1.00), WHICHEVER IS LESS.
+
+
+6. WHAT THE SOFTWARE DOES
+
+So that Your consent is informed, the Software:
+  (a) captures the contents of each attached display in order to render the
+      magnified overlay;
+  (b) installs a system-wide low-level keyboard hook, used solely to detect the
+      Esc key so the overlay can be dismissed from any window;
+  (c) re-captures the contents of each display periodically so the overlay does
+      not itself become a static image;
+  (d) injects small synthetic mouse movements at regular intervals;
+  (e) can ask Windows to keep the display and the system awake while the overlay
+      is running, when You enable that option;
+  (f) can change display brightness while the overlay is running, when You
+      enable the dimming option, and restores the previous brightness when the
+      overlay exits;
+  (g) can register itself to start automatically when Windows starts, when You
+      enable that option;
+  (h) writes diagnostic messages to a text file inside its installation folder.
+
+NO DATA LEAVES YOUR DEVICE. The Software works entirely offline. It does not
+send any data over the internet, it opens no network connections, and it
+contains no advertising, telemetry, analytics, or tracking of any kind. Captured
+screen content, keystrokes, and diagnostic logs never leave Your device.
+
+
+7. INDEMNIFICATION
+
+You agree to indemnify, defend, and hold harmless the developer and publisher
+from and against any claim, liability, loss, or expense (including reasonable
+legal fees) arising out of Your use of the Software or Your breach of this
+Agreement.
+
+
+8. TERMINATION
+
+This Agreement is effective until terminated. It terminates automatically if You
+breach any of its terms. Upon termination You must cease all use of the Software
+and remove all copies. Sections 3, 4, 5, 7, and 9 survive termination.
+
+
+9. CONSUMER RIGHTS AND SEVERABILITY
+
+Some jurisdictions do not allow the exclusion of certain warranties or the
+limitation or exclusion of liability for certain types of damages. To the extent
+any such exclusion or limitation is prohibited by the law applicable to You,
+that exclusion or limitation shall not apply to You, and the liability of the
+developer and publisher shall be limited to the greatest extent permitted by
+that applicable law. Nothing in this Agreement limits any liability that cannot
+be limited by law, including liability for death or personal injury caused by
+negligence, or for fraud.
+
+If any provision of this Agreement is held unenforceable, that provision shall
+be modified to the minimum extent necessary to make it enforceable, and the
+remaining provisions shall remain in full force and effect.
+
+
+10. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between You and the developer
+and publisher concerning the Software and supersedes all prior or contemporaneous
+communications and proposals regarding it.
+
+
+BY INSTALLING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS
+AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS.
+
+
+11. SUPPORT AND CONTACT
+
+The Software is provided as is and without any obligation to provide support.
+Support is nevertheless offered on a best-effort, no-guarantee basis at:
+
+    Support and FAQ    https://badriandev.github.io/burnward/
+    Report a problem   https://github.com/BadRianDev/burnward/issues
+    Email              badriandev@gmail.com
+
+Security issues should be reported privately by email, or through GitHub's
+private vulnerability reporting, rather than in a public issue.
+
+If You purchased the Software through the Microsoft Store, refunds and billing
+are handled by Microsoft under its own terms, not by the developer.

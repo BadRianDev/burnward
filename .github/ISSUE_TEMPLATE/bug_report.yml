@@ -1,0 +1,114 @@
+name: Bug report
+description: Something in Burnward is not working correctly
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        Please search the [existing issues](https://github.com/BadRianDev/burnward/issues?q=is%3Aissue)
+        first, in case it is already known.
+
+        **Note:** Burnward's overlay is deliberately invisible to screenshots and
+        screen recorders, so a screenshot will show your desktop *without* the
+        lens. Use a phone photo if you need to show the lens itself.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem, and what you expected to happen instead.
+      placeholder: When I..., Burnward... but I expected it to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can this be triggered? Leave blank if it is unpredictable.
+      placeholder: |
+        1. Right-click the tray icon
+        2. Choose Run...
+        3. ...
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Burnward version
+      description: Right-click the tray icon, then License / About.
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Press Win+R, type winver, and copy the version and build number.
+      placeholder: Windows 11 23H2 (build 22631.4169)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install-method
+    attributes:
+      label: How did you install Burnward?
+      options:
+        - Setup.exe installer
+        - MSIX package
+        - Microsoft Store
+    validations:
+      required: true
+
+  - type: input
+    id: displays
+    attributes:
+      label: Monitor setup
+      description: >
+        Number of displays, their resolutions, and your scaling percentage
+        (Settings > System > Display > Scale). Many issues are specific to
+        multi-monitor or mixed-DPI setups.
+      placeholder: 2 displays - 3840x2160 at 150% and 1920x1080 at 100%
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Error log
+      description: >
+        Contents of errors.log, if it exists. The tray menu has
+        "Help and support > Open error log folder". It contains only timestamps,
+        error messages and stack traces - no screen contents and no personal
+        data. This will be rendered as code.
+      render: text
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: blocked
+    attributes:
+      label: Is this the "Access is denied" launch problem?
+      description: >
+        If Burnward refuses to start and Windows says "Access is denied", this is
+        usually Microsoft Defender's attack surface reduction rules blocking it.
+        See the README for details.
+      options:
+        - label: Yes, Burnward will not start and Windows says "Access is denied"
+          required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues
+          required: true
+        - label: I am using the most recent version of Burnward
+          required: false

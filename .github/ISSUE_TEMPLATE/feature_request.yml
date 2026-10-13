@@ -1,0 +1,52 @@
+name: Feature request
+description: Suggest an improvement to Burnward
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion.
+
+        Burnward is intentionally small and focused on preventing screen burn-in.
+        Ideas that keep it simple are the most likely to be accepted.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation you are in, rather than the solution.
+      placeholder: When I..., I have to... because Burnward does not...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like it to do?
+      placeholder: Burnward could...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have considered
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part does this affect?
+      options:
+        - The magnifying lens
+        - The tray menu
+        - Brightness dimming
+        - Keep awake behaviour
+        - The installer
+        - Documentation
+        - Something else
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+# This repository contains documentation and releases only.
+# No source, no build output, no signing material.
+*.exe
+*.dll
+*.msix
+*.pfx
+*.cer
+*.snk

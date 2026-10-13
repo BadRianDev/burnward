@@ -1,0 +1,41 @@
+name: Question or help
+description: Ask how something works, or get help using Burnward
+title: "[Question]: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking, the [README](https://github.com/BadRianDev/burnward#readme)
+        and [SUPPORT.md](https://github.com/BadRianDev/burnward/blob/main/SUPPORT.md)
+        cover the most common questions, including:
+
+        - Burnward will not start, and Windows says "Access is denied"
+        - The display never switches off
+        - Brightness dimming does nothing on an external monitor
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to know?
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Burnward version
+      description: Right-click the tray icon, then License / About. Leave blank if not installed yet.
+      placeholder: 1.0.0
+    validations:
+      required: false
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Press Win+R, type winver, and copy the version and build number.
+      placeholder: Windows 11 23H2 (build 22631.4169)
+    validations:
+      required: false
