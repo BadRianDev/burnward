@@ -167,7 +167,7 @@ AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS.
 The Software is provided as is and without any obligation to provide support.
 Support is nevertheless offered on a best-effort, no-guarantee basis at:
 
-    Support and FAQ    https://badriandev.github.io/burnward/
+    Support and FAQ    https://github.com/BadRianDev/burnward/blob/main/SUPPORT.md
     Report a problem   https://github.com/BadRianDev/burnward/issues
     Email              badriandev@gmail.com
 

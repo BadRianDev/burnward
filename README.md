@@ -100,7 +100,7 @@ if you hit this, so it can be reported to Microsoft for reclassification.
 ## Support
 
 - **Report a bug or request a feature:** [open an issue](https://github.com/BadRianDev/burnward/issues/new/choose)
-- **Questions and help:** <https://badriandev.github.io/burnward/>
+- **Questions and help:** [SUPPORT.md](SUPPORT.md)
 - **Email:** <badriandev@gmail.com>
 
 See [SUPPORT.md](SUPPORT.md) for what to include in a report, and
