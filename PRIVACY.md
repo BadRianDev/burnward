@@ -34,7 +34,7 @@ computer.
 | Data | Why | Where it goes |
 |---|---|---|
 | An image of your screen | This is the image the magnifying lens moves across. It is re-captured about once a minute while running. | Held in memory only. Never written to disk, and discarded when the app closes. |
-| Mouse pointer position | The pointer is nudged a few pixels periodically so it cannot burn into the display. | Used immediately, never stored. |
+| Mouse pointer position | Read so the pointer can be shifted a few pixels periodically while the lens is running. | Used immediately, never stored. |
 | Your display brightness | So the previous brightness can be restored after the "Dim screen" option is used. | Held in memory while running. |
 | Your preferences | To remember the "Keep awake", "Dim screen" and "Start with Windows" settings. | Windows registry, under `HKEY_CURRENT_USER\Software\Burnward`. In the Microsoft Store version these are kept inside the app package and removed when you uninstall. |
 | Error details | So faults can be diagnosed if you report a problem. | A plain text file, `errors.log`. See "About the error log" below for its location. |

@@ -23,7 +23,8 @@ It runs on **every attached monitor at once**, and quits the moment you press
 | Moving magnifier | A lens roughly 1/8 of the screen sweeps diagonally, bouncing off the edges, covering the whole screen within about 90 seconds. |
 | Tiered magnification | The centre of the lens magnifies most and the magnification falls off towards the translucent rim, so no fixed edge is ever burned in. |
 | Global pixel shift | The entire image drifts slightly over time, so even unmagnified pixels keep moving. |
-| Cursor nudge | The mouse pointer is shifted a few pixels every 15 seconds so the cursor itself cannot burn in. |
+| Hidden pointer | The mouse pointer is hidden for as long as the lens is running, so the cursor cannot burn in. |
+| Cursor nudge | The pointer is also shifted 3 pixels every 15 seconds, alternating direction. This uses `SetCursorPos` rather than `SendInput`, so it does not count as user activity and does not keep the display awake. |
 | Shifting exit hint | "PRESS ESC TO EXIT" is drawn in the inverse of the colour behind it, and moves with the pixel shift so the hint cannot burn in either. |
 | Periodic re-capture | The snapshot is refreshed every 60 seconds, and the lens resumes its exact position and direction afterwards. |
 
